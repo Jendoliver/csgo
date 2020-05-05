@@ -1,0 +1,20 @@
+version: '3'
+services:
+  server:
+    image: cm2network/csgo:latest
+    container_name: csgo-dedicated
+    network_mode: "host"
+    ports:
+      - "8081:8081"
+    environment:
+      - SRCDS_RCONPW="payasinni"
+      - SRCDS_PW="payasinni"
+      - SRCDS_PORT=27015
+      - SRCDS_TV_PORT=27020
+      - SRCDS_FPSMAX=300
+      - SRCDS_TICKRATE=128
+      - SRCDS_MAXPLAYERS=14
+      - SRCDS_STARTMAP="de_dust2"
+      - SRCDS_REGION=3
+      - SRCDS_MAPGROUP="mg_active"
+      - SRCDS_TOKEN=${SRCDS_TOKEN}
