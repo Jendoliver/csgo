@@ -4,5 +4,5 @@
 @NoPromptForPassword 1
 login anonymous 
 force_install_dir d:\csgo_ds\
-app_update 740 validate
+app_update 740
 quit
