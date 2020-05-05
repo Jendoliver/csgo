@@ -1,4 +1,3 @@
 server/steamcmd/**/*
-!server/steamcmd/start.bat
-!server/steamcmd/update_csgo_ds.txt
+!server/steamcmd/update_csgo_ds.bat
 !server/steamcmd/steamcmd.exe

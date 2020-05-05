@@ -1,0 +1,1 @@
+steamcmd +login anonymous +force_install_dir ../csgo_ds +app_update 740 +quit

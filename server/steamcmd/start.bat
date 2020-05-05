@@ -1,1 +1,0 @@
-steamcmd +runscript update_csgo_ds.txt
