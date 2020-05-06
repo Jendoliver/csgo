@@ -1,1 +1,1 @@
-FOR /F "tokens=*" %%i in ('type .env') do SET %%i
+FOR /F "tokens=*" %%i in ('type %~dp0\.env') do SET %%i
