@@ -157,5 +157,15 @@
 				"de_aztec_se"		""
 			}
 		}
+
+		"mg_brutal"
+		{
+			"name"			"mg_brutal"
+			"maps"
+			{
+				"vs_collonutv2"		""
+				"am_tocador"		""
+			}
+		}
 	}
 }}
