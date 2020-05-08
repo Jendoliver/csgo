@@ -26,6 +26,8 @@ scripts you wanted to run.
 
 #### Installation
 Run the `server/steamcmd/install_csgo_ds.bat` script.
+This will create two scripts named `rcon_pass.cfg` and `sv_pass.cfg` in `%CSGO_SERVER_ROOT%\csgo\cfg`.
+Fill your passwords there, as the `autoexec.cfg` will `exec` those files in order to set them.
 
 #### Updating
 Run the `server/steamcmd/update_csgo_ds.bat` script.
