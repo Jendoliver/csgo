@@ -42,7 +42,7 @@
 
 		"mapgroupsMP"						// List of mapgroups valid for this game mode ( casual )
 		{
-			"mg_bomb_se"		""
+			"mg_brutal"			""
 		}
 
 
