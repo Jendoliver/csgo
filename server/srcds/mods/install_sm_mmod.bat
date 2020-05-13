@@ -1,4 +1,4 @@
-call ..\load_env.bat
+call ..\..\load_env.bat
 setlocal
 FOR /F "tokens=* USEBACKQ" %%F IN (`curl https://mms.alliedmods.net/mmsdrop/1.11/mmsource-latest-windows`) DO (
 SET metamod_latest=%%F
